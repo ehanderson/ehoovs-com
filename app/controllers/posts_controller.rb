@@ -5,6 +5,7 @@ class PostsController < ApplicationController
 #                              :except => [:index, :show]
   def index
     @posts = Post.all
+    render :index
   end
 
   def edit
