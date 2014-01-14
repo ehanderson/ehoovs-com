@@ -69486,3 +69486,2169 @@ Served asset /posts.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:21:27 -0600
 Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (51.9ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePosts (20131119032724)
+Migrating to CreateComments (20131119075341)
+  [1m[35m (0.6ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePosts (20131119032724)
+Migrating to CreateComments (20131119075341)
+  [1m[35m (0.3ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 13:37:28 -0600
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 47ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 13:37:28 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 7ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:37:28 -0600
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:37:28 -0600
+Served asset /comments.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:37:28 -0600
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:37:28 -0600
+Served asset /posts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:37:28 -0600
+Served asset /resume.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:37:28 -0600
+Served asset /projects.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:37:28 -0600
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:37:28 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:37:28 -0600
+Served asset /comments.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:37:28 -0600
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:37:28 -0600
+Served asset /posts.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:37:28 -0600
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-14 13:37:28 -0600
+Served asset /em.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sailinglight.jpg" for 127.0.0.1 at 2014-01-14 13:37:28 -0600
+Served asset /sailinglight.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:37:34 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (1.1ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (35.2ms)
+Completed 500 Internal Server Error in 93ms
+
+ActionView::Template::Error (undefined method `location' for #<Post:0x007fcdfd71dec8>):
+    10:     <div class="post">
+    11:       <li id="post_title"><%= post.title %></li>
+    12:         <ul class="inline">
+    13:         <li id="post_location"><%= post.location %></li>
+    14:         <li id="post_date"><%= post.date %></li>
+    15:         <li><%= link_to 'Edit', edit_post_path(post) %></li>
+    16:         <li><%= link_to 'Delete', post, :confirm => 'Are you sure?',
+  app/views/posts/index.html.erb:13:in `block in _app_views_posts_index_html_erb__3990436415246230445_70261338628220'
+  app/views/posts/index.html.erb:9:in `each'
+  app/views/posts/index.html.erb:9:in `_app_views_posts_index_html_erb__3990436415246230445_70261338628220'
+
+
+  Rendered /Users/macowner/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /Users/macowner/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/macowner/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.8ms)
+Connecting to database specified by database.yml
+  [1m[36m (145.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (71.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.9ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePosts (20131119032724)
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (8.8ms)[0m  [1mCREATE TABLE "posts" ("id" serial primary key, "title" character varying(255), "content" text, "location" character varying(255), "date" character varying(255), "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (81.9ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20131119032724')
+  [1m[36m (1.7ms)[0m  [1mCOMMIT[0m
+Migrating to CreateComments (20131119075341)
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (326.1ms)[0m  [1mCREATE TABLE "comments" ("id" serial primary key, "commenter" character varying(255), "body" text, "post_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (125.5ms)[0m  CREATE INDEX "index_comments_on_post_id" ON "comments" ("post_id")
+  [1m[36m (101.5ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20131119075341')[0m
+  [1m[35m (6.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:39:12 -0600
+Connecting to database specified by database.yml
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 71ms (Views: 29.8ms | ActiveRecord: 8.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 13:39:13 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:13 -0600
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:13 -0600
+Served asset /comments.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:13 -0600
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:13 -0600
+Served asset /projects.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:13 -0600
+Served asset /posts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:13 -0600
+Served asset /resume.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:13 -0600
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:13 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:13 -0600
+Served asset /comments.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:13 -0600
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:13 -0600
+Served asset /posts.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:13 -0600
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-14 13:39:13 -0600
+Served asset /em.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sailinglight.jpg" for 127.0.0.1 at 2014-01-14 13:39:13 -0600
+Served asset /sailinglight.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:39:14 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:14 -0600
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:14 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:14 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:14 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:14 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:14 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:14 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:14 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:14 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:14 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:14 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:14 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2014-01-14 13:39:16 -0600
+Processing by PostsController#new as HTML
+  Rendered posts/_post_form.html.erb (80.1ms)
+  Rendered posts/new.html.erb within layouts/application (86.7ms)
+Completed 200 OK in 127ms (Views: 119.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:16 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:16 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:16 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:16 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:16 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:16 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:16 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:16 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:16 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:16 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:16 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:16 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2014-01-14 13:39:26 -0600
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"54f2cOA5JLlULZT8aWv60a4b8LFUSk1HJhof4KBkpnY=", "post"=>{"title"=>"this location", "content"=>"here is the post"}, "commit"=>"Post"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (113.2ms)[0m  INSERT INTO "posts" ("content", "created_at", "date", "location", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["content", "here is the post"], ["created_at", Tue, 14 Jan 2014 19:39:26 UTC +00:00], ["date", nil], ["location", nil], ["title", "this location"], ["updated_at", Tue, 14 Jan 2014 19:39:26 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/posts/1
+Completed 302 Found in 119ms (ActiveRecord: 114.5ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2014-01-14 13:39:27 -0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (21.0ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1  [["id", "1"]]
+  Rendered comments/_form.html.erb (56.6ms)
+  Rendered posts/show.html.erb within layouts/application (64.5ms)
+Completed 200 OK in 113ms (Views: 86.4ms | ActiveRecord: 23.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:27 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:27 -0600
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:27 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:27 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:27 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:27 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:27 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:27 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:27 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:27 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:27 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:27 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:39:31 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  [1m[35mComment Load (1.0ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = 1
+  Rendered collection (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:31 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:31 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:31 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:31 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:31 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:39:31 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:31 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:31 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:31 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:31 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:31 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:39:31 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2014-01-14 13:40:14 -0600
+Processing by PostsController#new as HTML
+  Rendered posts/_post_form.html.erb (2.9ms)
+  Rendered posts/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:40:14 -0600
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:40:14 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:40:14 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:40:14 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:40:14 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:40:14 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:40:14 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:40:14 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:40:14 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:40:14 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:40:14 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:40:14 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2014-01-14 13:40:31 -0600
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"54f2cOA5JLlULZT8aWv60a4b8LFUSk1HJhof4KBkpnY=", "post"=>{"title"=>"this is not nil location", "content"=>"content is goig here"}, "commit"=>"Post"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "posts" ("content", "created_at", "date", "location", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["content", "content is goig here"], ["created_at", Tue, 14 Jan 2014 19:40:31 UTC +00:00], ["date", nil], ["location", nil], ["title", "this is not nil location"], ["updated_at", Tue, 14 Jan 2014 19:40:31 UTC +00:00]]
+  [1m[36m (2.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/posts/2
+Completed 302 Found in 6ms (ActiveRecord: 3.6ms)
+
+
+Started GET "/posts/2" for 127.0.0.1 at 2014-01-14 13:40:31 -0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mPost Load (0.6ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1  [["id", "2"]]
+  Rendered comments/_form.html.erb (2.6ms)
+  Rendered posts/show.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:40:31 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:40:31 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:40:31 -0600
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:40:31 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:40:31 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:40:31 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:40:31 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:40:31 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:40:31 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:40:31 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:40:31 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:40:31 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:40:33 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  [1m[35mComment Load (0.7ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = 1
+  Rendered collection (0.0ms)
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = 2[0m
+  Rendered collection (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 12ms (Views: 9.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:40:33 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:40:33 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:40:33 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:40:33 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:40:33 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:40:33 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:40:33 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:40:33 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:40:33 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:40:33 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:40:33 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:40:33 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (28.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (2.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePosts (20131119032724)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (6.0ms)[0m  [1mCREATE TABLE "posts" ("id" serial primary key, "title" character varying(255), "content" text, "location" character varying(255), "date" character varying(255), "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (0.5ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20131119032724')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Migrating to CreateComments (20131119075341)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (8.2ms)[0m  [1mCREATE TABLE "comments" ("id" serial primary key, "commenter" character varying(255), "body" text, "post_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (1.2ms)[0m  CREATE INDEX "index_comments_on_post_id" ON "comments" ("post_id")
+  [1m[36m (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20131119075341')[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:42:39 -0600
+Connecting to database specified by database.yml
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 74ms (Views: 30.2ms | ActiveRecord: 9.8ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:39 -0600
+Served asset /comments.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:39 -0600
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:39 -0600
+Served asset /projects.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:39 -0600
+Served asset /resume.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:39 -0600
+Served asset /posts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:39 -0600
+Served asset /home.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:39 -0600
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:39 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:39 -0600
+Served asset /comments.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:39 -0600
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:39 -0600
+Served asset /posts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:39 -0600
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 13:42:40 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:40 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:40 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:40 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:40 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:40 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:40 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:40 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:40 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:40 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:40 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:40 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:40 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-14 13:42:40 -0600
+Served asset /em.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sailinglight.jpg" for 127.0.0.1 at 2014-01-14 13:42:40 -0600
+Served asset /sailinglight.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2014-01-14 13:42:42 -0600
+Processing by PostsController#new as HTML
+  Rendered posts/_post_form.html.erb (9.8ms)
+  Rendered posts/new.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 30ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:42 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:42 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:42 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:42 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:42 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:42 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:42 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:42 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:42 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:42 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:42 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:42 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2014-01-14 13:42:54 -0600
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"54f2cOA5JLlULZT8aWv60a4b8LFUSk1HJhof4KBkpnY=", "post"=>{"title"=>"First title", "date"=>"dat here", "location"=>" location here", "content"=>"content all over this"}, "commit"=>"Post"}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (5.5ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "date", "location", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["content", "content all over this"], ["created_at", Tue, 14 Jan 2014 19:42:54 UTC +00:00], ["date", "dat here"], ["location", " location here"], ["title", "First title"], ["updated_at", Tue, 14 Jan 2014 19:42:54 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/posts/1
+Completed 302 Found in 10ms (ActiveRecord: 6.7ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2014-01-14 13:42:54 -0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (1.0ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", "1"]]
+  Rendered comments/_form.html.erb (52.9ms)
+  Rendered posts/show.html.erb within layouts/application (59.3ms)
+Completed 200 OK in 67ms (Views: 60.6ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:54 -0600
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:54 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:54 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:54 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:54 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:54 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:54 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:54 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:54 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:54 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:54 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:54 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:42:56 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts" 
+  [1m[36mComment Load (0.8ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = 1[0m
+  Rendered collection (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:56 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:56 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:56 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:56 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:56 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:42:56 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:56 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:56 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:56 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:56 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:56 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:42:56 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:44:38 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts" 
+  [1m[36mComment Load (0.7ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = 1[0m
+  Rendered collection (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (2.6ms)
+Compiled posts.css  (0ms)  (pid 8453)
+Compiled application.css  (1ms)  (pid 8453)
+Completed 200 OK in 23ms (Views: 20.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:44:38 -0600
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:44:38 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:44:38 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:44:38 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:44:38 -0600
+Served asset /posts.css - 200 OK (1ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:44:38 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:44:38 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:44:38 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:44:38 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:44:38 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:44:38 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:44:38 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:45:23 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.6ms)[0m  SELECT "posts".* FROM "posts" 
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = 1[0m
+  Rendered collection (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (2.3ms)
+Compiled posts.css  (0ms)  (pid 8453)
+Compiled application.css  (1ms)  (pid 8453)
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:45:23 -0600
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:45:23 -0600
+Served asset /posts.css - 200 OK (1ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:45:23 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:45:23 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:45:23 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:45:23 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:45:23 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:45:23 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:45:23 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:45:23 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:45:23 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:45:23 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:46:25 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.6ms)[0m  SELECT "posts".* FROM "posts" 
+  [1m[36mComment Load (0.7ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = 1[0m
+  Rendered collection (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (2.5ms)
+Compiled posts.css  (0ms)  (pid 8453)
+Compiled application.css  (1ms)  (pid 8453)
+Completed 200 OK in 26ms (Views: 24.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:46:25 -0600
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:46:25 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:46:25 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:46:25 -0600
+Served asset /posts.css - 200 OK (1ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:46:25 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:46:25 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:46:25 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:46:25 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:46:25 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:46:25 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:46:25 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:46:25 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:46:29 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts" 
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = 1[0m
+  Rendered collection (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:46:29 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:46:29 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:46:29 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:46:29 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:46:29 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:46:29 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:46:29 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:46:29 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:46:29 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:46:29 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:46:29 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:46:29 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:46:50 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.6ms)[0m  SELECT "posts".* FROM "posts" 
+  [1m[36mComment Load (0.7ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = 1[0m
+  Rendered collection (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (2.7ms)
+Compiled posts.css  (0ms)  (pid 8453)
+Compiled application.css  (1ms)  (pid 8453)
+Completed 200 OK in 26ms (Views: 23.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:46:50 -0600
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:46:50 -0600
+Served asset /posts.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:46:50 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:46:50 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:46:50 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:46:50 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:46:50 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:46:50 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:46:50 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:46:50 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:46:50 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:46:50 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:46:57 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts" 
+  [1m[36mComment Load (0.9ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = 1[0m
+  Rendered collection (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (2.7ms)
+Compiled posts.css  (0ms)  (pid 8453)
+Compiled application.css  (1ms)  (pid 8453)
+Completed 200 OK in 67ms (Views: 64.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:46:57 -0600
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:46:57 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:46:57 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:46:57 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:46:57 -0600
+Served asset /posts.css - 200 OK (3ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:46:57 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:46:57 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:46:57 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:46:57 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:46:57 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:46:57 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:46:57 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:47:33 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts" 
+  [1m[36mComment Load (0.7ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = 1[0m
+  Rendered collection (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:47:33 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:47:33 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:47:33 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:47:33 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:47:33 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:47:33 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:47:33 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:47:33 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:47:33 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:47:33 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:47:33 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:47:33 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:47:56 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts" 
+  [1m[36mComment Load (0.6ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = 1[0m
+  Rendered collection (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:47:56 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:47:56 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:47:56 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:47:56 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:47:56 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:47:56 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:47:56 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:47:56 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:47:56 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:47:56 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:47:56 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:47:56 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:48:20 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts" 
+  [1m[36mComment Load (0.6ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = 1[0m
+  Rendered collection (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (2.8ms)
+Compiled application.css  (1ms)  (pid 8453)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:48:20 -0600
+Served asset /application.css - 200 OK (7ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:48:20 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:48:20 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:48:20 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:48:20 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:48:20 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:48:20 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:48:20 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:48:20 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:48:20 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:48:20 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:48:20 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:48:37 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts" 
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = 1[0m
+  Rendered collection (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (2.4ms)
+Compiled posts.css  (0ms)  (pid 8453)
+Compiled application.css  (1ms)  (pid 8453)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:48:37 -0600
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:48:37 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:48:37 -0600
+Served asset /posts.css - 200 OK (4ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:48:37 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:48:37 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:48:37 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:48:37 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:48:37 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:48:37 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:48:37 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:48:37 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:48:37 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:49:16 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts" 
+  [1m[36mComment Load (0.7ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = 1[0m
+  Rendered collection (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (5.9ms)
+Compiled posts.css  (0ms)  (pid 8453)
+Compiled application.css  (1ms)  (pid 8453)
+Completed 200 OK in 27ms (Views: 24.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:49:16 -0600
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:49:16 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:49:16 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:49:16 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:49:16 -0600
+Served asset /posts.css - 200 OK (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:49:16 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:49:16 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:49:16 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:49:16 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:49:16 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:49:16 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:49:16 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:49:43 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.6ms)[0m  SELECT "posts".* FROM "posts" 
+  [1m[36mComment Load (0.6ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = 1[0m
+  Rendered collection (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 13ms (Views: 10.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:49:43 -0600
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:49:43 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:49:43 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:49:43 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:49:44 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:49:44 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:49:44 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:49:44 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:49:44 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:49:44 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:49:44 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:49:44 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:49:54 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts" 
+  [1m[36mComment Load (0.6ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = 1[0m
+  Rendered collection (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:49:54 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:49:54 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:49:54 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:49:54 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:49:54 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:49:54 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:49:54 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:49:54 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:49:54 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:49:54 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:49:54 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:49:54 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:50:48 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts" 
+  [1m[36mComment Load (0.6ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = 1[0m
+  Rendered collection (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (4.2ms)
+Compiled posts.css  (0ms)  (pid 8453)
+Compiled application.css  (1ms)  (pid 8453)
+Completed 200 OK in 24ms (Views: 22.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:50:48 -0600
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:50:48 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:50:48 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:50:48 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:50:48 -0600
+Served asset /posts.css - 200 OK (1ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:50:49 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:50:49 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:50:49 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:50:49 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:50:49 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:50:49 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:50:49 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:51:05 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.6ms)[0m  SELECT "posts".* FROM "posts" 
+  [1m[36mComment Load (0.6ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = 1[0m
+  Rendered collection (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (2.7ms)
+Compiled posts.css  (0ms)  (pid 8453)
+Compiled application.css  (1ms)  (pid 8453)
+Completed 200 OK in 26ms (Views: 23.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:51:05 -0600
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:51:05 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:51:05 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:51:05 -0600
+Served asset /posts.css - 200 OK (1ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:51:05 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:51:05 -0600
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:51:05 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:51:05 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:51:05 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:51:05 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:51:05 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:51:05 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:51:45 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (5.8ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `stringify_keys' for "/posts/new":String):
+    3:    <p>Immediately following my graduation at DBC (literally the next day) I departed for SouthEast Asia for a month long adventure. This blog is a work in progress. I made it in a few hrs just to get it up and running. Clearly, there is not anything fancy about it. There isn't any ajaxing of forms, any jquery, any css design, or even hiding buttons not accessible to all of you. The focus was just to get the words on the page live to all of you back home. So give it some slack, don't judge my coding yet, have fun reading the stories, and hopefully we can start to see something pretty arise when I have a little more time in the days to come! Enjoy</p>
+    4:   <p id="notice"><%= notice %></p>
+    5:   <div id= "newpost">
+    6:     <%= link_to "<button>Printable Resume</button>".html_safe, 'New Post', new_post_path %> <br>
+    7:   </div>
+    8:   <div class="posts">
+    9:     <% @posts.each do |post| %>
+  app/views/posts/index.html.erb:6:in `_app_views_posts_index_html_erb__2351176422354924239_70143348149520'
+
+
+  Rendered /Users/macowner/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/macowner/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/macowner/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.6ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:52:12 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.8ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = 1
+  Rendered collection (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:12 -0600
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:12 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:12 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:12 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:12 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:12 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:12 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:12 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:12 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:12 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:12 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:12 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:52:21 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = 1
+  Rendered collection (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:21 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:21 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:21 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:21 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:21 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:21 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:21 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:21 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:21 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:21 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:21 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:21 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:52:31 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  [1m[35mComment Load (0.6ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = 1
+  Rendered collection (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:31 -0600
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:31 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:31 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:31 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:31 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:31 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:31 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:31 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:31 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:31 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:31 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:31 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2014-01-14 13:52:40 -0600
+Processing by PostsController#new as HTML
+  Rendered posts/_post_form.html.erb (2.5ms)
+  Rendered posts/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:40 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:40 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:40 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:40 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:40 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:40 -0600
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:40 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:40 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:40 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:40 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:40 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:40 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2014-01-14 13:52:52 -0600
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"54f2cOA5JLlULZT8aWv60a4b8LFUSk1HJhof4KBkpnY=", "post"=>{"title"=>"2nd one", "date"=>"2nd one", "location"=>"location 2", "content"=>"content 2"}, "commit"=>"Post"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "posts" ("content", "created_at", "date", "location", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["content", "content 2"], ["created_at", Tue, 14 Jan 2014 19:52:52 UTC +00:00], ["date", "2nd one"], ["location", "location 2"], ["title", "2nd one"], ["updated_at", Tue, 14 Jan 2014 19:52:52 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/posts/2
+Completed 302 Found in 4ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/posts/2" for 127.0.0.1 at 2014-01-14 13:52:52 -0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1  [["id", "2"]]
+  Rendered comments/_form.html.erb (2.6ms)
+  Rendered posts/show.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:52 -0600
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:52 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:52 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:52 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:52 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:52 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:52 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:52 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:52 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:52 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:52 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:52 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-14 13:52:55 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  [1m[35mComment Load (0.6ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = 1
+  Rendered collection (0.0ms)
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = 2[0m
+  Rendered collection (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:55 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:55 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:55 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:55 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:55 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-14 13:52:55 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:55 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:55 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:55 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:55 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:55 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 13:52:55 -0600
+Served asset /application.js - 304 Not Modified (0ms)

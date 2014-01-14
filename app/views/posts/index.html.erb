@@ -1,20 +1,24 @@
 <div>
   <h1>Emily's Blog Home Page</h1>
-   <p>Immediately following my graduation at DBC (literally the next day) I departed for SouthEast Asia for a month long adventure. This blog is a work in progress. I made it in a few hrs just to get it up and running. Clearly, there is not anything fancy about it. There isn't any ajaxing of forms, any jquery, any css design, or even hiding buttons not accessible to all of you. The focus was just to get the words on the page live to all of you back home. So give it some slack, don't judge my coding yet, have fun reading the stories, and hopefully we can start to see something pretty arise when I have a little more time in the days to come! Enjoy</p>
+   <p>Immediately following my graduation at DBC (literally the next day) I departed for SouthEast Asia for a month long adventure. This blog is a work in progress. I made it in a few hrs just to get it up and running. Clearly, there is not anything fancy about it. There isn't any ajaxing of forms, any jquery, any css design, or even hiding buttons not accessible to all of you. The focus was just to get the words on the page live to all of you back home. So give it some slack, don't judge my coding yet, have fun reading the stories, and hopefully we can start to see something pretty arise when I have a little more time in the days to come! Enjoy.</p>
   <p id="notice"><%= notice %></p>
-
-  <%= link_to 'New Post', new_post_path %> <br>
-
+  <div id= "newpost">
+    <%= link_to "<button>New Post</button>".html_safe, new_post_path %> <br>
+  </div>
   <div class="posts">
     <% @posts.each do |post| %>
     <div class="post">
-      <ul class="inline">
-        <li id="post_title"><%= post.title %></li>
-        <li><%= link_to 'Edit', edit_post_path(post) %></li>
-        <li><%= link_to 'Delete', post, :confirm => 'Are you sure?',
-                                    :method => :delete %></li>
-        <li><%= link_to 'Comment', post_path(post)%></li>
-      </ul>
+
+      <h3 id="post_title"><%= post.title %></h3>
+        <ul class="inline">
+          <li id="post_location"><%= post.location %></li>
+          <li id="post_date"><%= post.date %></li>
+          <li><%= link_to 'Edit', edit_post_path(post) %></li>
+          <li><%= link_to 'Delete', post, :confirm => 'Are you sure?',
+                                      :method => :delete %></li>
+          <li><%= link_to 'Comment', post_path(post)%></li>
+        </ul>
+
       <p><%=simple_format(post.content) %></p>
 
       <%= render post.comments%>
