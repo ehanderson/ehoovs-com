@@ -1,0 +1,55 @@
+td{
+  height: 350px;
+  width: 250px;
+}
+
+.project img{
+  width: 250px;
+  height: 300px;
+}
+
+.all_projects{
+  margin-left: 10%
+}
+
+#mountains{
+  background-color: #c3c3c3;
+  background-image:url('snowmass.jpg');
+  background-color:#cccccc;
+  background-size:100%  ;
+  background-repeat: no-repeat;
+  /*z-index: -1;*/
+  margin: -50px;
+  margin-bottom: 0px;
+  height: 50%;
+  border-bottom: 3px solid #aaa;
+}
+
+img#projectspic{
+  width: 150px;
+  margin-top: 5%;
+  margin-left: 10%;
+  float: left;
+  transform:rotate(-7deg);
+  -ms-transform:rotate(-7deg); /* IE 9 */
+  -webkit-transform:rotate(-7deg); /* Safari and Chrome */
+  border-style: solid;
+  border-color: #929292;
+  border-width: thin;
+}
+
+
+#project_top{
+  margin-left:10%;
+  padding-top:5%;
+  margin-right: 10%;
+  /*padding-bottom: 10%;*/
+}
+
+#project_top h1{
+  font-size: 40px;
+}
+
+
+
+

@@ -1,0 +1,38 @@
+/*
+ *= require_self
+ *= require_tree .
+ */
+
+
+
+.inline li {
+  display: inline;
+  padding: 5px;
+  /*color: white;*/
+}
+
+a{
+  text-decoration: none;
+  color: #4E0F75;
+  font-weight: bold;
+}
+
+a:hover{
+  color: navy;
+}
+
+h1{
+  font-family: "Copperplate", Times, serif;
+}
+
+body{
+  font-family: "Garamond", Times, serif;
+}
+
+footer{
+  opacity: .6;
+  margin-top: 10%;
+  margin-left: 50%;
+  border-top: 3px solid #4E0F75;
+  line-height: 10px;
+}

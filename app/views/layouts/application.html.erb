@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html id="page">
+
+<head>
+  <title>MyBlog</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+
+    <ul class="inline" id="nav">
+      <li><%= link_to 'Home', root_path%></li>
+      <li><%= link_to "LinkedIn",'http://www.linkedin.com/pub/emily-anderson/15/563/258/' %></li>
+      <li><%= link_to "Facebook", 'http://www.facebook.com/emily.hooveranderson' %></li>
+      <li><%= link_to "Twitter",'http://www.twitter.com/AndersonEHI' %></li>
+      <li><%= link_to "Southeast Asia Blog", posts_path %></li>
+    </ul>
+
+<body>
+  <div id='container'>
+    <%= yield %>
+  </div>
+</body>
+<footer>
+  <p>Emily Hoover Irene Anderson</p>
+  <p><%= mail_to "anderson.emilyhi@gmail.com" %></p>
+  <p>414.315.5115</p>
+</footer>
+</html>

@@ -1,0 +1,72 @@
+<div id='city'>
+  <div>  <%= image_tag 'em.jpg', {:class => "empic", :id => "resumepic"} %>
+  </div>
+  <div id="resume_top">
+    <h1>Emily Hoover Anderson</h1>
+    <h2>Web Developer</h2>
+  <div id="printable_link"><%= link_to "<button>Printable Resume</button>".html_safe, '/resume.pdf'%></div>
+  </div>
+</div>
+
+<div id="resume", class= "resume_list">
+  <h1 class="resume_header">Qualifications</h1>
+    <div id="resume_qualifications", class="sub_resume">
+      <div class="item">
+        <h2> Developer </h2>
+        <p>Dev BootCamp Graduate with a solid foundation of of Ruby, Rails, CSS, HTML5, JavaScript, JQuery, test-driven development, pair programming, and PhoneGap</p>
+      </div>
+      <div class="item">
+        <h2> Teacher </h2>
+        <p>University of Iowa Graduate, BS in Education with Mathematics </p>
+      </div>
+      <div class="item">
+        <h2> Character </h2>
+        <p> Eight years in the hospitality industry exemplifying adroit aptitude to multitask and exceed expectations while maintaining responsive and flexible relationships with colleagues</p>
+      </div>
+    </div>
+
+  <h1 class="resume_header">Experience</h1>
+    <div id="resume_experience", class="sub_resume">
+      <div class="item">
+        <h2>Development Teaching Assistant for DevBootCamp </h2>
+        <div class="date"> '13-present</div>
+        <p>Mentoring students, providing code reviews, and aiding with app refactoring</p>
+      </div>
+      <div class="item">
+        <h2>Private Child Care Professional in Chicago</h2>
+        <div class="date"> '09-'13</div>
+        <p> Coordinating educational events and schedules to create a productive and efficient environment as well as aiding employer with travel, professional presentations, and other technology related needs</p>
+      </div>
+      <div class="item">
+        <h2>Print/Promotional Sales Representative for Regency Business Solutions</h2>
+        <div class="date"> 2009</div>
+        <p>Outside sales requiring database reports generation and online tool generation presentations to C-level executives</p>
+      </div>
+      <div class="item">
+        <h2>Vice President-Recruitment and Special Projects Coordinator for social sorority</h2>
+        <div class="date"> '05-'07</div>
+        <p>Managed/created algorthim-focused recruit evaluation database, designed the chapter's first website along with email contact system, and ran daily meetings and details</p>
+      </div>
+      <div class="item">
+        <h2>Vice President-Philanthropy for social fraternities</h2>
+        <div class="date"> '05-'06</div>
+        <p>Self started/co-developed an annual event on campus, raising $10,000+ for JDRF and CASA. Required social media advertising and coordinating<p>
+      </div>
+    </div>
+
+  <h1 class="resume_header">Personal Intrests</h1>
+    <ul id="resume_personal_interests">
+      <li> World Travel </li> |
+      <li> Skiing </li> |
+      <li> Sailing </li> |
+      <li> Organizing </li> |
+      <li> Gymnastics </li> |
+      <li> <%= link_to "Chicago City Chase", "http://www.citychaseusa.com/"%> </li> |
+      <li> Crossword Puzzels </li>
+    </ul>
+  <h1 class="resume_headers">Projects</h1>
+  <div class="item">
+    <p><%=link_to "Projects Page", projects_home_path%><p>
+  </div>
+</div>
+

@@ -1,0 +1,96 @@
+#city{
+  background-color: #c3c3c3;
+  background-image:url('citylight.jpg');
+  background-color:#cccccc;
+  background-size:100%  ;
+  background-repeat: no-repeat;
+  /*z-index: -1;*/
+  margin: -50px;
+  margin-bottom: 0px;
+  height: 50%;
+  border-bottom: 3px solid #aaa;
+}
+
+img#resumepic{
+  width: 150px;
+  margin-top: 5%;
+  margin-left: 10%;
+  float: left;
+  transform:rotate(-7deg);
+  -ms-transform:rotate(-7deg); /* IE 9 */
+  -webkit-transform:rotate(-7deg); /* Safari and Chrome */
+  border-style: solid;
+  border-color: #929292;
+  border-width: thin;
+}
+
+#printable_link{
+  float: right;
+  margin: 6%;
+}
+
+button {
+   border-top: 1px solid #96d1f8;
+   background: #56aade;
+   background: -webkit-gradient(linear, left top, left bottom, from(#e6e9eb), to(#56aade));
+   background: -webkit-linear-gradient(top, #e6e9eb, #56aade);
+   background: -moz-linear-gradient(top, #e6e9eb, #56aade);
+   background: -ms-linear-gradient(top, #e6e9eb, #56aade);
+   background: -o-linear-gradient(top, #e6e9eb, #56aade);
+   padding: 7px 14px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+}
+button:hover {
+   border-top-color: #0b2130;
+   background: #0b2130;
+   color: #ccc;
+   }
+#resume_top{
+  margin-left:10%;
+  padding-top:5%;
+  padding-bottom: 10%;
+}
+
+#resume_top h1{
+  font-size: 40px;
+}
+
+#resume {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.sub_resume{
+  margin-left: 5%;
+}
+
+#resume h1{
+  padding-top: 10px;
+}
+
+.item h2, .date{
+  display: inline;
+  padding-right: 5px;
+}
+
+
+.item p{
+  margin-left: 3%;
+}
+
+#resume_personal_interests li{
+  display:inline;
+  padding-right: 5px;
+
+}
+
+p, li{
+  font-size: 20px
+}
+
