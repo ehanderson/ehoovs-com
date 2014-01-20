@@ -27,7 +27,7 @@ td{
 
 img#projectspic{
   width: 150px;
-  margin-top: 5%;
+  margin-top: 8%;
   margin-left: 10%;
   float: left;
   transform:rotate(-7deg);
@@ -43,7 +43,10 @@ img#projectspic{
   margin-left:10%;
   padding-top:5%;
   margin-right: 10%;
-  /*padding-bottom: 10%;*/
+}
+#project_top h4{
+  font-size: 13px;
+  margin-left:30%;
 }
 
 #project_top h1{
@@ -59,12 +62,12 @@ img#projectspic{
   font-style: italic;
   margin-left: 5%;
   font-size: 18px;
-  line-height: 5px;
+  /*line-height: 5px;*/
   padding-bottom: 10px;
 }
 
 .project h2{
-  line-height: 10px;
+  /*line-height: 15px;*/
 }
 
 .description p{

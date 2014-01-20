@@ -75232,3 +75232,1970 @@ Served asset /em.jpg - 304 Not Modified (0ms)
 
 Started GET "/assets/sailinglight.jpg" for 127.0.0.1 at 2014-01-20 14:27:24 -0600
 Served asset /sailinglight.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-20 14:34:54 -0600
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 339ms (Views: 339.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:34:56 -0600
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:34:56 -0600
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:34:56 -0600
+Served asset /comments.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:34:56 -0600
+Served asset /projects.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:34:56 -0600
+Served asset /resume.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:34:56 -0600
+Served asset /posts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:34:56 -0600
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:34:56 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:34:56 -0600
+Served asset /comments.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:34:56 -0600
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:34:56 -0600
+Served asset /posts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:34:56 -0600
+Served asset /application.js - 304 Not Modified (30ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:34:56 -0600
+Served asset /em.jpg - 304 Not Modified (46ms)
+
+
+Started GET "/assets/sailinglight.jpg" for 127.0.0.1 at 2014-01-20 14:34:56 -0600
+Served asset /sailinglight.jpg - 304 Not Modified (45ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:34:58 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 27ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:34:58 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:34:58 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:34:58 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:34:58 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:34:58 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:34:58 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:34:58 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:34:58 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:34:58 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:34:58 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:34:58 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:34:58 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:34:58 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:34:58 -0600
+Served asset /snowmass.jpg - 304 Not Modified (65ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:35:26 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:35:26 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:35:26 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:35:26 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:35:26 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:35:26 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:35:26 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:35:26 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:35:26 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:35:26 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:35:26 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:35:26 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:35:26 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:35:26 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:35:26 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:37:04 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (1.0ms)
+Compiled projects.css  (0ms)  (pid 2490)
+Compiled application.css  (3ms)  (pid 2490)
+Completed 200 OK in 114ms (Views: 113.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:37:04 -0600
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:37:04 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:37:04 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:37:04 -0600
+Served asset /projects.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:37:04 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:37:04 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:37:04 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:37:04 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:37:04 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:37:04 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:37:04 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:37:04 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:37:04 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:37:04 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:37:12 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (0.4ms)
+Compiled projects.css  (0ms)  (pid 2490)
+Compiled application.css  (1ms)  (pid 2490)
+Completed 200 OK in 71ms (Views: 70.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:37:12 -0600
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:37:12 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:37:12 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:37:12 -0600
+Served asset /projects.css - 200 OK (1ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:37:12 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:37:12 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:37:12 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:37:12 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:37:12 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:37:12 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:37:12 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:37:12 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:37:12 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:37:12 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:38:34 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (1.2ms)
+Compiled projects.css  (0ms)  (pid 2490)
+Compiled application.css  (4ms)  (pid 2490)
+Completed 200 OK in 222ms (Views: 221.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:38:35 -0600
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:38:35 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:38:35 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:38:35 -0600
+Served asset /projects.css - 200 OK (2ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:38:35 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:38:35 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:38:35 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:38:35 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:38:35 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:38:35 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:38:35 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:38:35 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:38:35 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:38:35 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:38:47 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (0.4ms)
+Compiled projects.css  (0ms)  (pid 2490)
+Compiled application.css  (1ms)  (pid 2490)
+Completed 200 OK in 43ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:38:48 -0600
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:38:48 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:38:48 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:38:48 -0600
+Served asset /projects.css - 200 OK (4ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:38:48 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:38:48 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:38:48 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:38:48 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:38:48 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:38:48 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:38:48 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:38:48 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:38:48 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:38:48 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:39:22 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (0.4ms)
+Compiled projects.css  (0ms)  (pid 2490)
+Compiled application.css  (1ms)  (pid 2490)
+Completed 200 OK in 102ms (Views: 102.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:39:22 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:39:22 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:39:22 -0600
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:39:22 -0600
+Served asset /projects.css - 200 OK (1ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:39:22 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:39:22 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:39:22 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:39:22 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:39:22 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:39:22 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:39:22 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:39:22 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:39:22 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:39:22 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:40:00 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (0.9ms)
+Compiled projects.css  (0ms)  (pid 2490)
+Compiled application.css  (1ms)  (pid 2490)
+Completed 200 OK in 295ms (Views: 294.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:00 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:00 -0600
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:00 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:00 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:00 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:00 -0600
+Served asset /projects.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:00 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:00 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:00 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:00 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:00 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:00 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:40:00 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:40:00 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:40:25 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (1.2ms)
+Compiled projects.css  (0ms)  (pid 2490)
+Compiled application.css  (2ms)  (pid 2490)
+Completed 200 OK in 184ms (Views: 184.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:25 -0600
+Served asset /application.css - 304 Not Modified (27ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:25 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:25 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:25 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:25 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:25 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:25 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:25 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:25 -0600
+Served asset /projects.css - 200 OK (1ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:25 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:25 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:25 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:40:25 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:40:25 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:40:42 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (0.6ms)
+Compiled projects.css  (0ms)  (pid 2490)
+Compiled application.css  (1ms)  (pid 2490)
+Completed 200 OK in 43ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:43 -0600
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:43 -0600
+Served asset /projects.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:43 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:43 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:43 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:43 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:43 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:43 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:43 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:43 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:43 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:43 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:40:43 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:40:43 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:40:54 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (0.6ms)
+Compiled projects.css  (0ms)  (pid 2490)
+Compiled application.css  (1ms)  (pid 2490)
+Completed 200 OK in 63ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:54 -0600
+Served asset /projects.css - 200 OK (3ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:54 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:54 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:54 -0600
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:54 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:54 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:54 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:54 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:54 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:54 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:54 -0600
+Served asset /posts.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:54 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:40:54 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:40:54 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:40:58 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (0.6ms)
+Compiled projects.css  (0ms)  (pid 2490)
+Compiled application.css  (1ms)  (pid 2490)
+Completed 200 OK in 42ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:58 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:58 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:58 -0600
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:58 -0600
+Served asset /projects.css - 200 OK (1ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:58 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:40:58 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:58 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:58 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:58 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:58 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:58 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:40:58 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:40:58 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:40:58 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:41:01 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (0.6ms)
+Compiled projects.css  (0ms)  (pid 2490)
+Compiled application.css  (1ms)  (pid 2490)
+Completed 200 OK in 85ms (Views: 84.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:01 -0600
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:01 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:01 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:01 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:01 -0600
+Served asset /projects.css - 200 OK (2ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:01 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:01 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:01 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:01 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:01 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:01 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:01 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:41:01 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:41:02 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:41:06 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (0.5ms)
+Compiled projects.css  (0ms)  (pid 2490)
+Compiled application.css  (1ms)  (pid 2490)
+Completed 200 OK in 86ms (Views: 85.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:07 -0600
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:07 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:07 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:07 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:07 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:07 -0600
+Served asset /projects.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:07 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:07 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:07 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:07 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:07 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:07 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:41:07 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:41:07 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:41:10 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (0.4ms)
+Compiled projects.css  (0ms)  (pid 2490)
+Compiled application.css  (1ms)  (pid 2490)
+Completed 200 OK in 41ms (Views: 40.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:10 -0600
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:10 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:10 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:10 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:10 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:10 -0600
+Served asset /projects.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:10 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:10 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:10 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:10 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:10 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:10 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:41:10 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:41:10 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:41:15 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (0.6ms)
+Compiled projects.css  (0ms)  (pid 2490)
+Compiled application.css  (1ms)  (pid 2490)
+Completed 200 OK in 104ms (Views: 103.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:15 -0600
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:15 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:15 -0600
+Served asset /projects.css - 200 OK (4ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:15 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:15 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:15 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:15 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:15 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:15 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:15 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:15 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:15 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:41:15 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:41:15 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:41:41 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (0.6ms)
+Compiled projects.css  (0ms)  (pid 2490)
+Compiled application.css  (1ms)  (pid 2490)
+Completed 200 OK in 60ms (Views: 59.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:41 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:41 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:41 -0600
+Served asset /projects.css - 200 OK (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:41 -0600
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:41 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:41:41 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:41 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:41 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:41 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:41 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:41 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:41:41 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:41:41 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:41:41 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:42:10 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:42:10 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:42:10 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:42:10 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:42:10 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:42:10 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:42:10 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:42:10 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:42:10 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:42:10 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:42:10 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:42:10 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:42:10 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:42:10 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:42:28 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:42:28 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:42:28 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:42:28 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:42:28 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:42:28 -0600
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:42:28 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:42:28 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:42:28 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:42:28 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:42:28 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:42:28 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:42:28 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:42:28 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:42:34 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (0.7ms)
+Compiled projects.css  (0ms)  (pid 2490)
+Compiled application.css  (1ms)  (pid 2490)
+Completed 200 OK in 117ms (Views: 116.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:42:35 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:42:35 -0600
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:42:35 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:42:35 -0600
+Served asset /projects.css - 200 OK (2ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:42:35 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:42:35 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:42:35 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:42:35 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:42:35 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:42:35 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:42:35 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:42:35 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:42:35 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:42:35 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:42:56 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (0.4ms)
+Compiled projects.css  (0ms)  (pid 2490)
+Compiled application.css  (1ms)  (pid 2490)
+Completed 200 OK in 42ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:42:56 -0600
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:42:56 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:42:56 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:42:56 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:42:56 -0600
+Served asset /projects.css - 200 OK (1ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:42:56 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:42:56 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:42:56 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:42:57 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:42:57 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:42:57 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:42:57 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:42:57 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:42:57 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:43:03 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (0.4ms)
+Compiled projects.css  (0ms)  (pid 2490)
+Compiled application.css  (1ms)  (pid 2490)
+Completed 200 OK in 61ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:43:03 -0600
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:43:03 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:43:03 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:43:03 -0600
+Served asset /projects.css - 200 OK (3ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:43:03 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:43:03 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:43:03 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:43:03 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:43:03 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:43:03 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:43:03 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:43:03 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:43:03 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:43:03 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:43:07 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (0.5ms)
+Compiled projects.css  (0ms)  (pid 2490)
+Compiled application.css  (1ms)  (pid 2490)
+Completed 200 OK in 46ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:43:07 -0600
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:43:07 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:43:07 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:43:07 -0600
+Served asset /projects.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:43:07 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:43:07 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:43:07 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:43:07 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:43:07 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:43:07 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:43:07 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:43:07 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:43:07 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:43:07 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:43:17 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (0.4ms)
+Compiled projects.css  (0ms)  (pid 2490)
+Compiled application.css  (2ms)  (pid 2490)
+Completed 200 OK in 48ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:43:17 -0600
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:43:17 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:43:17 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:43:17 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:43:17 -0600
+Served asset /projects.css - 200 OK (3ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:43:17 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:43:17 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:43:17 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:43:17 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:43:17 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:43:17 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:43:17 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:43:17 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:43:17 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:43:21 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (0.4ms)
+Compiled projects.css  (0ms)  (pid 2490)
+Compiled application.css  (1ms)  (pid 2490)
+Completed 200 OK in 42ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:43:21 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:43:21 -0600
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:43:21 -0600
+Served asset /projects.css - 200 OK (2ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:43:21 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:43:21 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:43:21 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:43:21 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:43:21 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:43:21 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:43:21 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:43:21 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:43:21 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:43:21 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:43:21 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:44:09 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (0.4ms)
+Compiled projects.css  (0ms)  (pid 2490)
+Compiled application.css  (2ms)  (pid 2490)
+Completed 200 OK in 47ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:44:09 -0600
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:44:09 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:44:09 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:44:09 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:44:09 -0600
+Served asset /projects.css - 200 OK (1ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:44:09 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:44:09 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:44:09 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:44:09 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:44:09 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:44:09 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:44:09 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:44:09 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:44:09 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:44:27 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (0.6ms)
+Compiled projects.css  (0ms)  (pid 2490)
+Compiled application.css  (2ms)  (pid 2490)
+Completed 200 OK in 78ms (Views: 78.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:44:27 -0600
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:44:27 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:44:27 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:44:27 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:44:27 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:44:27 -0600
+Served asset /projects.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:44:27 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:44:27 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:44:27 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:44:27 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:44:27 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:44:27 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:44:27 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:44:27 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:44:45 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (0.4ms)
+Compiled projects.css  (0ms)  (pid 2490)
+Compiled application.css  (1ms)  (pid 2490)
+Completed 200 OK in 43ms (Views: 43.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:44:45 -0600
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:44:45 -0600
+Served asset /projects.css - 200 OK (1ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:44:45 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:44:45 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:44:45 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:44:45 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:44:45 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:44:45 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:44:45 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:44:45 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:44:45 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:44:45 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:44:45 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:44:45 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:44:58 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (0.4ms)
+Compiled projects.css  (0ms)  (pid 2490)
+Compiled application.css  (1ms)  (pid 2490)
+Completed 200 OK in 40ms (Views: 39.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:44:58 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:44:58 -0600
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:44:58 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:44:58 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:44:58 -0600
+Served asset /projects.css - 200 OK (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:44:58 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:44:58 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:44:58 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:44:58 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:44:58 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:44:58 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:44:58 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:44:58 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:44:58 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home/projects" for 127.0.0.1 at 2014-01-20 14:45:13 -0600
+Processing by HomeController#projects as HTML
+  Rendered home/projects.html.erb within layouts/application (0.4ms)
+Compiled projects.css  (0ms)  (pid 2490)
+Compiled application.css  (1ms)  (pid 2490)
+Completed 200 OK in 40ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-20 14:45:13 -0600
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-20 14:45:13 -0600
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-20 14:45:13 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-01-20 14:45:13 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-01-20 14:45:13 -0600
+Served asset /resume.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-01-20 14:45:13 -0600
+Served asset /projects.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-20 14:45:13 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-20 14:45:13 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-20 14:45:13 -0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-20 14:45:13 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-01-20 14:45:13 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-20 14:45:13 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/em.jpg" for 127.0.0.1 at 2014-01-20 14:45:13 -0600
+Served asset /em.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowmass.jpg" for 127.0.0.1 at 2014-01-20 14:45:13 -0600
+Served asset /snowmass.jpg - 304 Not Modified (0ms)
