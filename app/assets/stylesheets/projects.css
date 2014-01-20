@@ -9,7 +9,7 @@ td{
 }
 
 .all_projects{
-  margin-left: 10%
+  margin-left: 8%
 }
 
 #mountains{
@@ -48,6 +48,27 @@ img#projectspic{
 
 #project_top h1{
   font-size: 40px;
+}
+
+#current_projects{
+  font-size: 24px;
+  margin-left: 3%;
+}
+
+.languages p{
+  font-style: italic;
+  margin-left: 5%;
+  font-size: 18px;
+  line-height: 5px;
+  padding-bottom: 10px;
+}
+
+.project h2{
+  line-height: 10px;
+}
+
+.description p{
+  margin-left: 2%;
 }
 
 
