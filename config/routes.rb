@@ -2,11 +2,14 @@ MyBlog::Application.routes.draw do
   get "home/index"
   get "home/resume" => "home#resume", :as => "resume_home"
   get "home/projects" => "home#projects", :as => "projects_home"
+  get "home/blogs" => "home#blogs", :as => "blogs_home"
 
   root :to => 'home#index'
   resources :posts do
     resources :comments
   end
+
+  resources :indo_posts
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

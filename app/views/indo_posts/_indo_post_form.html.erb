@@ -1,0 +1,37 @@
+<div >
+<%= form_for(@indo_post) do |f| %>
+  <% if @indo_post.errors.any? %>
+    <div id='errorExplanations'>
+      <h2><%= pluralize(@indo_post.errors.count, "error") %> prohibited
+          this post from being saved:
+      </h2>
+      <ul>
+      <% @indo_post.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </div>
+    <div class="date">
+    <%= f.label :date %><br />
+    <%= f.text_field :date %>
+  </div>
+    <div class="field">
+    <%= f.label :location %><br />
+    <%= f.text_field :location %>
+  </div>
+  <div class="field" id="textarea">
+    <%= f.label :content %><br />
+    <div id="larger_font"><%= f.text_area :content %></div>
+  </div>
+  <div class="actions">
+    <%= f.submit "Post"%>
+  </div>
+<% end %>
+
+</div>

@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @indo_post.title %>
+</p>
+
+<p>
+  <b>Content:</b>
+  <%=simple_format(@indo_post.content)%>
+</p>
+<h3>Comments: </h3>
+
+
+<br>
+<%= link_to 'Edit', edit_indo_post_path(@indo_post) %> |
+<%= link_to 'Home Page', indo_posts_path %>

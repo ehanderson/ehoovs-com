@@ -1,0 +1,26 @@
+<div>
+  <h1>Emily's Indonesia Blog </h1>
+   <p></p>
+  <p id="notice"><%= notice %></p>
+  <div id= "newpost">
+    <%= link_to 'New Post', new_indo_post_path %> <br>
+  </div>
+  <div class="posts">
+    <% @indo_posts.each do |indo_post| %>
+    <div class="post">
+
+      <h3 id="post_title"><%= indo_post.title %></h3>
+        <ul class="inline">
+          <li id="post_location"><%= indo_post.location %></li>
+          <li id="post_date"><%= indo_post.date %></li>
+          <li><%= link_to 'Edit', edit_indo_post_path(indo_post) %></li>
+          <li><%= link_to 'Delete', indo_post, :confirm => 'Are you sure?',
+                                      :method => :delete %></li>
+        </ul>
+
+      <p><%=simple_format(indo_post.content) %></p>
+
+    </div>
+    <% end %>
+  </div>
+</div>

@@ -7,4 +7,9 @@ class HomeController < ApplicationController
   def projects
     render :projects
   end
+
+  def blogs
+    render :blogs
+  end
+
 end
